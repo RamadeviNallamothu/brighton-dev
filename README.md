@@ -8,5 +8,5 @@ Log in to PWS pivotal-brighton account with username: `pivotal-brighton@googlegr
 Then:
 
 ```
-cf push brighton-dev
+$ cf push brighton-dev
 ```
