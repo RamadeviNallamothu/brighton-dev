@@ -1,24 +1,24 @@
 {
   "accounts": [
     {
-      "name": "My Savings Account",
-      "type": "savings",
-      "balance": 111.11
+      "accountNumber": "12345",
+      "accountName": "My Checking Account",
+      "accountType": "checking",
+      "accountBalance": 111.11,
+      "transactionDate": 1454077907439,
+      "transactionAmount": 500
+      "transactionNotes": "memo",
+      "transactionType": "withdrawal"
     },
     {
-      "name": "My Checking Account",
-      "type": "checking",
-      "balance": 222.22
-    },
-    {
-      "name": "My Other Checking Account",
-      "type": "checking",
-      "balance": 333.33
-    },
-    {
-      "name": "My Brokerage Account",
-      "type": "brokerage",
-      "balance": 444444.44
+      "accountNumber": "11111",
+      "accountType": "savings",
+      "accountName": "My Savings",
+      "accountBalance": 5200,
+      "transactionDate": 1454077907441,
+      "transactionAmount": 5200,
+      "transactionNotes": "Initial Deposit",
+      "transactionType": "deposit"
     }
   ]
 }
